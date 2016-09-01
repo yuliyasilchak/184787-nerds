@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+      <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="nerds logo" href="#">
+            </div>
+            <nav class="main navigation">
+                <ul>
+                    <li>
+                        <a href="#">Студия</a>
+                    </li>
+                    <li>
+                        <a href="#">Клиенты</a>
+                    </li>
+                    <li>
+                        <a href="#">Магазин</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <a href="#">Корзина</a>
+            </div>
+            <div class="header-title">
+                <h1>Добро пожаловать в магазин готовых макетов</h1>
+            </div>
+        </div>
+      </header>
+      <main class="container">
+          <div class="filter">
+              <div class="filter-costs">
+                <h2 class="filter-title">Стоимость:</h2>
+                <div class="filter-costs-regulation"></div>
+                <form action="#" method="post">
+                    <label>
+                        От <input type="text" name="from" value="0">
+                    </label>
+                    <label>
+                        До <input type="text" name="to" value="1500"> 
+                    </label>
+                </form>
+              </div>
+              <div class="filter-grid">
+                <h2 class="filter-title">Сетка:</h2>
+                <form action="#" method="post">
+                    <label>
+                        <input type="radio" name="adaptive" value="adpt" checked> 
+                        Адаптивная
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="fixed" value="fxd">
+                        Фиксированная
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="fluid" value="fld">
+                        Резиновая
+                    </label>
+                </form>
+              </div>
+              <div class="filter-specials">
+                <h2 class="filter-title">Особенности:</h2>
+                <form action="#" method="post">
+                    <input type="checkbox" name="slider" id="slider" checked>
+                    <label for="slider">
+                        Слайдер
+                    </label>
+                    <br>
+                    <input type="checkbox" name="advantages-block" id="advantages-block">
+                    <label for="advantages-block">
+                        Блок преимуществ
+                    </label>
+                    <br>
+                    <input type="checkbox" name="news" id="news" checked>
+                    <label for="advantages-block">
+                        Новости
+                    </label>
+                    <br>
+                    <input type="checkbox" name="galery" id="galery">
+                    <label for="galery">
+                        Галерея
+                    </label>
+                    <br>
+                    <input type="checkbox" name="cart" id="cart" checked>
+                    <label for="cart">
+                        Корзина
+                    </label>
+                </form>
+              </div>
+              <button href="#">Показать</button>
+          </div>
+          <div class="shop">
+              <div class="shop-filter">
+                  <p>Сортировать: 
+                      <a href="#">
+                        <span class="shop-filter-item">По цене</span>
+                      </a>
+                      <a href="#">
+                        <span class="shop-filter-item">по типу</span>
+                      </a>
+                      <a href="#">
+                        <span class="shop-filter-item">по функционалу</span>
+                      </a>
+                  </p>
+              </div>
+              <div class="shop-items">
+                  <div>
+                    <img src="img/shop/aviator.jpg" alt="aviator">
+                  </div>
+                  <div>
+                    <img src="img/shop/sunset.jpg" alt="sunset">
+                  </div>
+                  <div>
+                    <img src="img/shop/forte.jpg" alt="forte">
+                  </div>
+                  <div>
+                    <img src="img/shop/modern-thai.jpg" alt="modern organic thai">
+                  </div>
+                  <div>
+                    <img src="img/shop/avenue.jpg" alt="avenue">
+                  </div>
+                  <div>
+                    <img src="img/shop/dovetail.jpg" alt="dovetail">
+                  </div>
+              </div>
+              <div class="shop-items-navigation">
+                  <button>1</button>
+                  <button>2</button>
+                  <button>3</button>
+                  <button>Следующая</button>
+              </div>
+          </div>
+             <section class="contacts">
+                 <div class="contacts-information">
+                     <h4 class="contacts-title">Nërds design studio</h4>
+                     <p>191186, Санкт-Петербург,
+                     ул. Б.Конюшенная, д. 19/8<br>
+                     тел. +7 (812) 275-75-75</p>
+                     <a href="#">Напишите нам</a>
+                 </div>
+                 <div class="contacts-location">
+                     <img src="img/location_pointer.png" alt="местонахождение nërds">
+                 </div>
+             </section>
+         </div>
+      </main>
+      <footer class="main-footer">
+          <div class="container">
+              <section class="social">
+                  <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+                  <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+                  <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+              </section>
+              <section class="promo">
+                  <h2 class="promo-title">Давайте дружить, это выгодно!</h2>
+                  <p>Скидка 10% для друзей из социальных сетей.</p>
+              </section>
+          </div>
+      </footer>
+  </body>
+</html>
